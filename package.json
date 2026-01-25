@@ -1,0 +1,23 @@
+{
+  "name": "laravel-vue-skills",
+  "version": "0.0.1",
+  "description": "Production-ready Laravel + Vue/Tailwind/shadcn-vue skills and agents",
+  "tags": [
+    "laravel",
+    "vue",
+    "tailwind",
+    "shadcn-vue",
+    "skills",
+    "agents",
+    "claude-code",
+    "opencode"
+  ],
+  "main": "README.md",
+  "scripts": {
+    "docgen": "node scripts/docgen.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "npm run validate"
+  },
+  "author": "Artem Noskov <artem@noartem.ru>",
+  "license": "MIT"
+}

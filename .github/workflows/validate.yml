@@ -1,0 +1,39 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+      - name: Validate
+        run: npm run validate
+
+  size-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check file sizes
+        run: |
+          # Check total repository size
+          REPO_SIZE=$(du -sh . | cut -f1)
+          echo "Repository size: $REPO_SIZE"
+
+          # Check for large files (> 500KB)
+          if find . -type f -name "*.md" -size +500k | grep -q .; then
+            echo "❌ Found large MD files (> 500KB)"
+            find . -type f -name "*.md" -size +500k -exec ls -lh {} \;
+            exit 1
+          fi
