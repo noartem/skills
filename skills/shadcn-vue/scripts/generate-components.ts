@@ -3,7 +3,7 @@
  * Run: npx -y tsx skills/shadcn-vue/scripts/generate-shadcn-components.ts
  *
  * Creates:
- *   - components.md (index)
+ *   - references/components.md (index)
  *   - components/<component>.md (per-component details)
  */
 
@@ -171,8 +171,8 @@ async function main() {
 
   index.push('')
 
-  writeFileSync(join(baseDir, 'components.md'), index.join('\n'))
-  console.log('✓ Generated components.md (index)')
+  writeFileSync(join(baseDir, 'references/components.md'), index.join('\n'))
+  console.log('✓ Generated references/components.md (index)')
 
   for (const comp of sortedComponents) {
     const lines: string[] = []

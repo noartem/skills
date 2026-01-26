@@ -72,7 +72,6 @@ Enforces an opinionated UI baseline to prevent AI-generated interface slop.
 
 - NEVER animate large `blur()` or `backdrop-filter` surfaces
 - NEVER apply `will-change` outside an active animation
-- NEVER use `useEffect` for anything that can be expressed as render logic
 
 ## Design
 

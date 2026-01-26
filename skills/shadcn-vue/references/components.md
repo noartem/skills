@@ -1,7 +1,5 @@
 # Shadcn Vue Components
 
-> Auto-generated. Run `npx tsx skills/shadcn-vue/scripts/generate-shadcn-components.ts` to update.
-
 > Total components: 64
 
 | Component | Description | File |
