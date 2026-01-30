@@ -14,6 +14,13 @@ _Optional_. Install vue skills from [onmax/nuxt-skills](https://github.com/onmax
 npx -y skills add onmax/nuxt-skills --skill=vue --skill=vueuse --skill=reka-ui --skill=ts-library
 ```
 
+Agents installation in [OpenCode](https://opencode.ai/) for current project:
+
+```
+mkdir -p .opencode/agent
+curl https://raw.githubusercontent.com/noartem/skills/refs/heads/main/agents/laravel-simplifier.md > .opencode/agent/laravel-simplifier.md
+```
+
 ## Compatibility
 
 - Laravel: targeting Laravel 11/12 conventions with PHP 8.1+.
