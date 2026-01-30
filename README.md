@@ -5,7 +5,7 @@
 Use [skills](https://www.npmjs.com/package/skills) for universal installation:
 
 ```
-npx skills add noartem/laravel-vue-skills
+npx -y skills add noartem/skills
 ```
 
 _Optional_. Install vue skills from [onmax/nuxt-skills](https://github.com/onmax/nuxt-skills):
