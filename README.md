@@ -5,20 +5,13 @@
 Use [skills](https://www.npmjs.com/package/skills) for universal installation:
 
 ```
-npx -y skills add noartem/skills
+npx skills add noartem/skills
 ```
 
 _Optional_. Install vue skills from [onmax/nuxt-skills](https://github.com/onmax/nuxt-skills):
 
 ```
-npx -y skills add onmax/nuxt-skills --skill=vue --skill=vueuse --skill=reka-ui --skill=ts-library
-```
-
-Agents installation in [OpenCode](https://opencode.ai/) for current project:
-
-```
-mkdir -p .opencode/agent
-curl https://raw.githubusercontent.com/noartem/skills/refs/heads/main/agents/laravel-simplifier.md > .opencode/agent/laravel-simplifier.md
+npx skills add onmax/nuxt-skills # reka-ui, vite, vue, vueuse
 ```
 
 ## Compatibility
