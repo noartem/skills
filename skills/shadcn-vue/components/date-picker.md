@@ -2,6 +2,8 @@
 
 **Description:** A date picker component with range and presets.
 
+**Links:** [Documentation](https://reka-ui.com/docs/components/date-picker) | [API Reference](https://reka-ui.com/docs/components/date-picker#api-reference)
+
 ---
 
 

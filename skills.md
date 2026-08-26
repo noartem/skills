@@ -31,5 +31,5 @@
 | laravel-task-scheduling | Schedule tasks with safety; use withoutOverlapping, onOneServer, and visibility settings for reliable cron execution |
 | laravel-template-method-and-plugins | Stabilize workflows with Template Method or Strategy; extend by adding new classes instead of editing core logic |
 | laravel-transactions-and-consistency | Wrap multi-write operations in transactions; use dispatchAfterCommit and idempotency patterns to ensure consistency |
-| shadcn-vue | shadcn-vue for Vue/Nuxt with Reka UI components and Tailwind. Use for accessible UI, Auto Form, data tables, charts, dark mode, MCP server setup, or encountering component imports, Reka UI errors. |
+| shadcn-vue | shadcn-vue for Vue/Nuxt with Reka UI components and Tailwind. Use for accessible UI, Auto Form, data tables, charts, dark mode, or encountering component imports, Reka UI errors. |
 | vue3-component-decomposition | Decompose large Vue 3 components into focused SFCs and composables with explicit contracts, simple templates, and SSR-safe side effects. |

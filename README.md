@@ -43,7 +43,7 @@ This repository is a clean-room framework inspired by the sources below. No code
 ### Frontend skills
 
 - [ibelick/ui-skills](https://github.com/ibelick/ui-skills)
-- [secondsky/claude-skills](https://github.com/secondsky/claude-skills/tree/main/plugins/shadcn-vue)
+- [unovue/shadcn-vue — official skill](https://github.com/unovue/shadcn-vue/tree/dev/skills/shadcn-vue)
 
 ### Official specifications
 
