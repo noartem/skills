@@ -1,4 +1,4 @@
-# laravel-vue-skills
+# noartem/skills
 
 ## Installation
 
