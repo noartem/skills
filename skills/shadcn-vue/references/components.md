@@ -1,6 +1,6 @@
 # Shadcn Vue Components
 
-> Total components: 70
+> Total components: 72
 
 | Component | Description | File |
 |-----------|-------------|------|
@@ -20,6 +20,7 @@
 | **Carousel** | A carousel with motion and swipe built using Embla. `component`  | `components/carousel.md` |
 | **Chart** | Beautiful charts. Built using Unovis. Copy and paste into your apps. `component`  | `components/chart.md` |
 | **Checkbox** | A control that allows the user to toggle between checked and not checked. `component` [doc](https://reka-ui.com/docs/components/checkbox) | `components/checkbox.md` |
+| **Code Block** | Displays code, terminal output and diffs with an optional header, line numbers and a copy button. `component`  | `components/code-block.md` |
 | **Collapsible** | An interactive component which expands/collapses a panel. `component` [doc](https://reka-ui.com/docs/components/collapsible) | `components/collapsible.md` |
 | **Combobox** | Autocomplete input and command palette with a list of suggestions. `component` [doc](https://reka-ui.com/docs/components/combobox) | `components/combobox.md` |
 | **Command** | Fast, composable, unstyled command menu for Vue. `component` [doc](https://reka-ui.com/docs/components/listbox) | `components/command.md` |
@@ -73,4 +74,5 @@
 | **Toggle** | A two-state button that can be either on or off. `component` [doc](https://reka-ui.com/docs/components/toggle) | `components/toggle.md` |
 | **Toggle Group** | A set of two-state buttons that can be toggled on or off. `component` [doc](https://reka-ui.com/docs/components/toggle-group) | `components/toggle-group.md` |
 | **Tooltip** | A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it. `component` [doc](https://reka-ui.com/docs/components/tooltip) | `components/tooltip.md` |
+| **Trace** | The building block for reasoning, tool calls, sources and more. `component`  | `components/trace.md` |
 | **Typography** | Styles for headings, paragraphs, lists...etc `component`  | `components/typography.md` |
