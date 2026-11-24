@@ -1,6 +1,6 @@
 {
   "name": "laravel-vue-skills",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Production-ready Laravel + Vue/Tailwind/shadcn-vue skills and agents",
   "tags": [
     "laravel",
